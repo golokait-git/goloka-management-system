@@ -1,0 +1,15 @@
+.conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form{
+    height: auto;
+    margin-top: 23px;
+    padding: 33px;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+}

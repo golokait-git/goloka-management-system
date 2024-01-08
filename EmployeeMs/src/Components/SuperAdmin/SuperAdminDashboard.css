@@ -1,0 +1,66 @@
+#mainheader {
+    background-color: #ffffff; /* Set your desired background color */
+    color: #000000; /* Set text color */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  }
+  
+  #mainheader h4 {
+    margin: 0;
+    font-size: 24px; /* Set the font size */
+    font-weight: bold;
+  }
+  
+  #mainheader p {
+    margin: 0;
+    font-size: 18px; /* Set the font size for additional text */
+  }
+
+.table1{
+    max-height: auto; /* Set a maximum height for the container */
+    max-width: 1050px;
+    /* Add vertical scrollbar if content overflows */
+    border: 1px solid #ddd; /* Add a border for the box effect */
+}
+
+.paginate{
+    margin-top: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.page{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header{
+    margin-top: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.searchbar{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: left;
+    border-radius: 10px;
+    width:223px;
+    height: 34px;
+    background-color: rgb(255, 255, 255);
+}
+
+.search-input{
+    border-radius: 11px;
+    margin-left: 2px;
+    border: hidden;
+    
+}
+
+#searchicon{
+    margin-left: 5px;
+}
